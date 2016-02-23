@@ -26,4 +26,7 @@ dependencies {
     compile files('libs/weiboSDKCore_3.1.4.jar')
     compile files('libs/open_sdk_r5509_lite.jar')
     compile files('libs/libammsdk.jar')
+
+    compile 'com.squareup.okhttp:okhttp:2.7.0'
+    compile 'com.google.code.gson:gson:2.2.4'
 }

@@ -26,18 +26,21 @@ public interface Constants {
 
     //微博
     public static final String APP_KEY      = "410325109";
-    public static final String REDIRECT_URL = "http://www.sina.com";
+    //http://app.yjmfortune.com  http://www.sina.com
+    public static final String REDIRECT_URL = "http://app.yjmfortune.com";
     public static final String SCOPE =
             "email,direct_messages_read,direct_messages_write,"
             + "friendships_groups_read,friendships_groups_write,statuses_to_me_read,"
             + "follow_app_official_microblog," + "invitation_write";
 
     //微信分享
-    public static String wxShare = "wxc0d00e6f55db13e6";
+    public static String wxShare = "wx60b442bbdbb789e4";//新 wx60b442bbdbb789e4   老 wxc0d00e6f55db13e6
+    public static String AppSecret = "be4981df994d4a6e8f8fbce623946593";//新 wx60b442bbdbb789e4   老 wxc0d00e6f55db13e6
     public static final String STitle = "showmsg_title";
     public static final String SMessage = "showmsg_message";
     public static final String BAThumbData = "showmsg_thumb_data";
-
+    public static final String WX_APP_SCOPE = "snsapi_userinfo"; // snsapi_base  snsapi_userinfo
+    public static final String WX_APP_STATE = "wechat_sdk_yjm";
 
     //QQ分享
     public static String QQShare = "1104890773";

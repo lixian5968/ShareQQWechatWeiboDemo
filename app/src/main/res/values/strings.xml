@@ -10,6 +10,13 @@
     <string name="errcode_cancel">发送取消</string>
     <string name="errcode_deny">发送被拒绝</string>
     <string name="errcode_unknown">发送返回</string>
+    <string name="errcode_login_success">授权登录成功</string>
     <string name="title_activity_share_activity_demo">ShareActivityDemo</string>
     <string name="title_activity_main">MainActivity</string>
+
+
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+    <string name="title_activity_test">Test</string>
 </resources>

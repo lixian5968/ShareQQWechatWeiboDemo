@@ -1,8 +1,8 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main_demo"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/share"
@@ -10,4 +10,104 @@
         android:layout_height="wrap_content"
         android:text="主界面分享" />
 
-</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/QQ_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QQ登陆" />
+
+        <Button
+            android:id="@+id/QQ_getUserInf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QQ信息" />
+
+        <Button
+            android:id="@+id/QQ_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QQ登出" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/QQ_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ信息：" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/WeiBo_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微博登陆" />
+
+        <Button
+            android:id="@+id/WeiBo_getUserInf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微博信息" />
+
+        <Button
+            android:id="@+id/WeiBo_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微博登出" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/weibo_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微博信息：" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/WeChat_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信登录" />
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/WeChat_getUserInf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信信息" />
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/WeChat_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信登出" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/WeChat_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微博信息：" />
+
+
+</LinearLayout>

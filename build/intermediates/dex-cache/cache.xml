@@ -2,53 +2,11 @@
 <items version="2" >
 
     <item
-        jar="E:\eclipseIDE\adt-bundle-windows-x86_64-20140321\sdk_studio\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\pre-dexed\release\support-annotations-23.1.1-93233065e63536c4f814b205ea5e80073e73edbf.jar" />
-    </item>
-    <item
-        jar="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\pre-dexed\release\internal_impl-23.1.1-6ed59f6a61ec577e2a323a407909b54002f9ec09.jar" />
-    </item>
-    <item
-        jar="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\libs\weiboSDKCore_3.1.4.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f3617ce51258bf3ec0fe2503e3c0a920040b1b53">
-        <dex dex="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\pre-dexed\release\weiboSDKCore_3.1.4-c99940e9d93083b01e3976117442639cd1fccac7.jar" />
-    </item>
-    <item
-        jar="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\pre-dexed\release\classes-e56af456d18186c985b7d1aa2d25e2cee7a35f00.jar" />
-    </item>
-    <item
         jar="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\libs\libammsdk.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="c1f63f70671d69ee38379728e1192db82e289246">
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
         <dex dex="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\pre-dexed\release\libammsdk-f83f37fa25cc5ddd46f919f8532cd95db7995332.jar" />
-    </item>
-    <item
-        jar="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\libs\open_sdk_r5509_lite.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="84c7cf027dfd4517eb51d5898999a7f2f74f99cc">
-        <dex dex="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\pre-dexed\release\open_sdk_r5509_lite-572de3462d1e5a537fec28e803b3c54c6b414172.jar" />
-    </item>
-    <item
-        jar="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="E:\Android_yjm_black\Android_share_git\ShareQQWechatWeiboDemo\app\build\intermediates\pre-dexed\release\classes-35ef70678eb66abb6c329dbef358ebf97a5aba74.jar" />
     </item>
 
 </items>
